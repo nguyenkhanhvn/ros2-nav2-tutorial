@@ -1,0 +1,3 @@
+/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl
+/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveRobot.idl
+/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/GetTransform.idl

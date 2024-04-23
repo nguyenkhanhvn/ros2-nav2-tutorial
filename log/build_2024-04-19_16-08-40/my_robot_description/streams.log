@@ -1,0 +1,50 @@
+[0.037s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_description
+[0.450s] -- The C compiler identification is GNU 11.4.0
+[0.777s] -- The CXX compiler identification is GNU 11.4.0
+[0.811s] -- Detecting C compiler ABI info
+[0.978s] -- Detecting C compiler ABI info - done
+[0.996s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.136s] -- Detecting C compile features
+[1.148s] -- Detecting C compile features - done
+[1.164s] -- Detecting CXX compiler ABI info
+[1.308s] -- Detecting CXX compiler ABI info - done
+[1.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.318s] -- Detecting CXX compile features
+[1.319s] -- Detecting CXX compile features - done
+[1.334s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.576s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.699s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.916s] -- Configuring done
+[1.920s] -- Generating done
+[1.921s] -- Build files have been written to: /home/albert/ws/ros2/nav2/build/my_robot_description
+[1.927s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_description
+[1.931s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_description -- -j6 -l6
+[2.012s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_description -- -j6 -l6
+[2.125s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_description
+[2.140s] -- Install configuration: ""
+[2.141s] -- Execute custom install script
+[2.143s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/camera.xacro
+[2.161s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/common_properties.xacro
+[2.180s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+[2.199s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/simple_robot_car.urdf
+[2.214s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/simple_robot_car.urdf.xacro
+[2.233s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/urdf/simple_robot_car_gazebo.urdf.xacro
+[2.250s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[2.267s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/launch/display.launch.xml
+[2.283s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/rviz/simple_robot_car.rviz
+[2.299s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[2.316s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[2.333s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[2.349s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[2.366s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/environment/path.sh
+[2.383s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[2.399s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/local_setup.bash
+[2.416s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/local_setup.sh
+[2.436s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[2.456s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[2.473s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/package.dsv
+[2.490s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[2.505s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[2.521s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[2.539s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_description/share/my_robot_description/package.xml
+[2.558s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_description

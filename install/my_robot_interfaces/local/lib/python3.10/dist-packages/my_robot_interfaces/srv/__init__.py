@@ -1,0 +1,1 @@
+/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py

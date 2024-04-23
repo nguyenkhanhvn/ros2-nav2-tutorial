@@ -1,0 +1,1 @@
+/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

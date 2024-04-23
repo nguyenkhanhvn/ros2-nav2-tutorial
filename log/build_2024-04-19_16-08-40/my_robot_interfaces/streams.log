@@ -1,0 +1,252 @@
+[0.019s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_interfaces
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.756s] -- The CXX compiler identification is GNU 11.4.0
+[0.790s] -- Detecting C compiler ABI info
+[0.963s] -- Detecting C compiler ABI info - done
+[0.977s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.115s] -- Detecting C compile features
+[1.127s] -- Detecting C compile features - done
+[1.143s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.293s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.313s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.554s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.788s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.829s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.136s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.069s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.063s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.068s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.110s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.113s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.114s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.118s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.140s] -- Found PythonExtra: .so  
+[4.265s] -- Configuring done
+[4.334s] -- Generating done
+[4.338s] -- Build files have been written to: /home/albert/ws/ros2/nav2/build/my_robot_interfaces
+[4.365s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_interfaces
+[4.368s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_interfaces -- -j6 -l6
+[4.442s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.460s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.474s] [  4%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[4.859s] running egg_info
+[4.860s] creating my_robot_interfaces.egg-info
+[4.860s] writing my_robot_interfaces.egg-info/PKG-INFO
+[4.860s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[4.861s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[4.861s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.868s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.869s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.913s] [  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[5.536s] [  4%] Built target my_robot_interfaces__cpp
+[5.560s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.588s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.591s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.633s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/get_transform__functions.c.o[0m
+[5.634s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.c.o[0m
+[5.645s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__functions.c.o[0m
+[5.968s] [ 19%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[6.057s] [ 19%] Built target my_robot_interfaces__rosidl_generator_c
+[6.083s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.092s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.093s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.624s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[7.087s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[7.195s] [ 31%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[7.371s] [ 34%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[7.444s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/move_robot__type_support.cpp.o[0m
+[7.745s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/get_transform__type_support.cpp.o[0m
+[7.843s] [ 40%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[7.911s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[7.948s] [ 44%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[8.170s] [ 46%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/move_robot__type_support.c.o[0m
+[8.263s] [ 46%] Built target my_robot_interfaces__rosidl_typesupport_c
+[8.326s] [ 48%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/get_transform__type_support.c.o[0m
+[8.347s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/move_robot__type_support.cpp.o[0m
+[8.485s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/get_transform__type_support.cpp.o[0m
+[8.514s] [ 55%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.939s] [ 55%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[9.042s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[9.266s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/move_robot__type_support.cpp.o[0m
+[9.396s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[9.516s] [ 63%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/move_robot__type_support_c.cpp.o[0m
+[9.548s] [ 65%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/get_transform__type_support.cpp.o[0m
+[9.857s] [ 68%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[10.064s] [ 68%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[10.131s] [ 70%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/get_transform__type_support_c.cpp.o[0m
+[10.438s] [ 72%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.463s] [ 74%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.591s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.608s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[10.727s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.847s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[10.884s] [ 76%] Built target my_robot_interfaces
+[10.921s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.809s] [ 78%] Built target my_robot_interfaces__py
+[12.844s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o[0m
+[12.844s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_move_robot_s.c.o[0m
+[12.846s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_get_transform_s.c.o[0m
+[13.155s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[13.230s] [ 87%] Built target my_robot_interfaces__rosidl_generator_py
+[13.269s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.269s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.271s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.510s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.511s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.524s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.598s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[13.599s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.612s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.631s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_interfaces -- -j6 -l6
+[13.938s] Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_interfaces
+[13.948s] -- Install configuration: ""
+[13.949s] -- Execute custom install script
+[13.949s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[13.965s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.h
+[13.980s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.h
+[13.993s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.h
+[14.007s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.h
+[14.020s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__functions.h
+[14.034s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__struct.h
+[14.047s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__type_support.h
+[14.062s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/move_robot.h
+[14.076s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.090s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__functions.h
+[14.104s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__struct.h
+[14.118s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__type_support.h
+[14.131s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/get_transform.h
+[14.144s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[14.158s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[14.172s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[14.185s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[14.198s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.212s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[14.227s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[14.240s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+[14.254s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.267s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[14.281s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.hpp
+[14.294s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__builder.hpp
+[14.308s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.hpp
+[14.322s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__traits.hpp
+[14.334s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__builder.hpp
+[14.348s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__struct.hpp
+[14.361s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__traits.hpp
+[14.374s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/move_robot.hpp
+[14.387s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__builder.hpp
+[14.402s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__struct.hpp
+[14.415s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__traits.hpp
+[14.430s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/get_transform.hpp
+[14.446s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[14.460s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[14.477s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.491s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[14.507s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[14.522s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[14.537s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[14.552s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[14.566s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[14.580s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.595s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.611s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.626s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.640s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[14.654s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[14.668s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.681s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.694s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py
+[14.708s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until.py
+[14.722s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until_s.c
+[14.735s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_move_robot.py
+[14.752s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_move_robot_s.c
+[14.767s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[14.781s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.796s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.811s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.826s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[14.840s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_get_transform.py
+[14.855s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_get_transform_s.c
+[14.871s] -- Up-to-date symlink: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.871s] -- Up-to-date symlink: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.871s] -- Up-to-date symlink: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.872s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.idl
+[14.887s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/action/MoveRobot.idl
+[14.900s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/srv/GetTransform.idl
+[14.915s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.action
+[14.936s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/action/MoveRobot.action
+[14.952s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/srv/GetTransform.srv
+[14.968s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/srv/GetTransform_Request.msg
+[14.983s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/srv/GetTransform_Response.msg
+[14.997s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[15.012s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[15.027s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[15.042s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[15.055s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[15.068s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[15.081s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[15.094s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[15.107s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[15.122s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[15.137s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[15.150s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[15.164s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.177s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.190s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.203s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.217s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.230s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.245s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.259s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[15.272s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[15.286s] -- Symlinking: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[15.299s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[15.300s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[15.300s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.300s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.301s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[15.302s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.302s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[15.303s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[15.303s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.303s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.303s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.304s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.304s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[15.305s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.362s] Listing '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[15.362s] Listing '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_count_until.py'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_move_robot.py'...
+[15.362s] Listing '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...
+[15.362s] Compiling '/home/albert/ws/ros2/nav2/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_get_transform.py'...
+[15.367s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[15.368s] -- Set runtime path of "/home/albert/ws/ros2/nav2/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[15.368s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[15.368s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.369s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.369s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.369s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.369s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.369s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[15.371s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.371s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[15.371s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.372s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.372s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.372s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.372s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[15.372s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.373s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[15.373s] -- Installing: /home/albert/ws/ros2/nav2/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.377s] Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_interfaces
