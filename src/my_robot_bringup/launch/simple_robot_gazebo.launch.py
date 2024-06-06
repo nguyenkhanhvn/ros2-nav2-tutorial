@@ -1,19 +1,38 @@
 import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable, TimerAction
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
+from launch.conditions import IfCondition
 from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command, LaunchConfiguration
 from ament_index_python.packages import get_package_share_path, get_package_prefix
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
+    pkg_path= get_package_share_path('my_robot_bringup')
     my_robot_description_path = get_package_share_path('my_robot_description')
     
     urdf_path = os.path.join(my_robot_description_path, 'urdf', 'my_robot.urdf.xacro')
     rviz_config_path = os.path.join(my_robot_description_path, 'rviz', 'simple_robot_car.rviz')
-    worlds_path = os.path.join(get_package_share_path('my_robot_bringup'), 'worlds', 'test.world')
+    # gazebo_world_path = os.path.join(pkg_path, 'worlds', 'turtlebot3_world.world')
+    gazebo_world_path = os.path.join(pkg_path, 'worlds', 'test.world')
     
+    # Launch configuration variables specific to simulation
+    x_pose = LaunchConfiguration('x_pose')
+    y_pose = LaunchConfiguration('y_pose')
+
+    declare_x_position_cmd = DeclareLaunchArgument(
+        'x_pose', default_value='0.5',
+        description='Specify namespace of the robot')
+
+    declare_y_position_cmd = DeclareLaunchArgument(
+        'y_pose', default_value='0.5',
+        description='Specify namespace of the robot')
+    
+    declare_gui_cmd = DeclareLaunchArgument(
+        'gui', default_value='false',
+        description='Specify if run Gazebo client')
+
     
     robot_description = ParameterValue(Command(['xacro ', urdf_path]), value_type=str)
     
@@ -22,23 +41,26 @@ def generate_launch_description():
         executable='robot_state_publisher',
         parameters=[{'robot_description': robot_description}]
     )
-    
+
     start_gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_path("gazebo_ros"), "launch", "gazebo.launch.py")
-        ),
-        launch_arguments={
-            'world': worlds_path,
-        }.items(),
+        PythonLaunchDescriptionSource(os.path.join(get_package_share_path("gazebo_ros"), "launch", "gazebo.launch.py")),
+        launch_arguments={'world': gazebo_world_path}.items()
+    )
+    start_gazebo_server = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(get_package_share_path("gazebo_ros"), "launch", "gzserver.launch.py")),
+        launch_arguments={'world': gazebo_world_path}.items()
+    )
+    start_gazebo_client = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(get_package_share_path("gazebo_ros"), "launch", "gzclient.launch.py")),
+        condition=IfCondition(LaunchConfiguration('gui'))
     )
     
     spawn_robot_node = Node (
         package="gazebo_ros",
         executable="spawn_entity.py",
-        arguments=["-topic", "robot_description", "-entity", "my_robot"],
-        output="screen"
+        arguments=["-topic", "robot_description", "-entity", "my_robot", '-x', x_pose, '-y', y_pose,],
+        # output="screen"
     )
-    start_delayed_spawn_robot_node = TimerAction(period=5.0, actions=[spawn_robot_node])
     
     rviz_node = Node(
         package="rviz2",
@@ -48,9 +70,13 @@ def generate_launch_description():
     
     
     return LaunchDescription([
+        declare_x_position_cmd,
+        declare_y_position_cmd,
+        declare_gui_cmd,
         robot_state_publisher_node,
-        start_gazebo,
-        start_delayed_spawn_robot_node,
+        start_gazebo_server,
+        start_gazebo_client,
+        spawn_robot_node,
         # rviz_node
     ])
     

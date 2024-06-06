@@ -1,1 +1,0 @@
-/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp

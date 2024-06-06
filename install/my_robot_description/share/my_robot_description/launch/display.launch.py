@@ -1,1 +1,0 @@
-/home/albert/ws/ros2/nav2/src/my_robot_description/launch/display.launch.py

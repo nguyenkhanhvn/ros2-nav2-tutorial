@@ -1,0 +1,6 @@
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Action ID="TestBehavior" target_number="2"/>
+    </BehaviorTree>
+</root>
+

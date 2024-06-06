@@ -1,8 +1,0 @@
-action/CountUntil.action
-action/CountUntil.idl
-action/MoveRobot.action
-action/MoveRobot.idl
-srv/GetTransform.idl
-srv/GetTransform.srv
-srv/GetTransform_Request.msg
-srv/GetTransform_Response.msg

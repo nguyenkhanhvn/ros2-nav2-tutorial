@@ -1,6 +1,0 @@
-Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_interfaces
-Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/ws/ros2/nav2/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/ws/ros2/nav2/install/my_robot_interfaces
-Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_interfaces -- -j6 -l6
-Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/ws/ros2/nav2/build/my_robot_interfaces -- -j6 -l6
-Invoking command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_interfaces
-Invoked command in '/home/albert/ws/ros2/nav2/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/ws/ros2/nav2/build/my_robot_interfaces

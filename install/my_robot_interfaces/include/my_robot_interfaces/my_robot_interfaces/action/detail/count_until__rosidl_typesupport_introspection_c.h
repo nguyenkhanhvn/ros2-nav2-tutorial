@@ -1,1 +1,0 @@
-/home/albert/ws/ros2/nav2/build/my_robot_interfaces/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h

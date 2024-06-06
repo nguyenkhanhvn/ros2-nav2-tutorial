@@ -1,0 +1,13 @@
+<library path="nknav2_bt_navigator_plugins">
+  <class name="nknav2_bt_navigator/NavigateToPose" type="nknav2_bt_navigator::NavigateToPose" base_class_type="nknav2_bt_navigator::Navigator">
+    <description>
+      NavigateToPose.
+    </description>
+  </class>
+  <class name="nknav2_bt_navigator/NavigateThroughPoses" type="nknav2_bt_navigator::NavigateThroughPoses" base_class_type="nknav2_bt_navigator::Navigator">
+    <description>
+      NavigateThroughPoses.
+    </description>
+  </class>
+</library>
+  

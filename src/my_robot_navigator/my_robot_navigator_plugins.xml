@@ -1,0 +1,8 @@
+<library path="my_robot_navigator">
+  <class name="my_robot_navigator/NavigateFullCoverage" type="my_robot_navigator::NavigateFullCoverage" base_class_type="nknav2_bt_navigator::Navigator">
+    <description>
+      NavigateFullCoverage.
+    </description>
+  </class>
+</library>
+  

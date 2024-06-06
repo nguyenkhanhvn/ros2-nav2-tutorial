@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:property name="base_length" value="0.6" />
-    <xacro:property name="base_width" value="0.4" />
-    <xacro:property name="base_height" value="0.2" />
-    <xacro:property name="wheel_radius" value="0.1" />
-    <xacro:property name="wheel_length" value="0.05" />
+    <xacro:property name="base_length" value="0.3" />
+    <xacro:property name="base_width" value="0.3" />
+    <xacro:property name="base_height" value="0.1" />
+    <xacro:property name="wheel_radius" value="0.05" />
+    <xacro:property name="wheel_length" value="0.025" />
 
     <xacro:macro name="wheel_link" params="prefix">
         <link name="${prefix}_wheel_link">
@@ -28,7 +28,7 @@
     
 
 
-    <link name="ground">
+    <link name="base_footprint">
     </link>
 
     <link name="base_link">
@@ -71,8 +71,8 @@
     </link>
 
 
-    <joint name="ground_base_joint" type="fixed">
-        <parent link="ground" />
+    <joint name="base_footprint_base_joint" type="fixed">
+        <parent link="base_footprint" />
         <child link="base_link" />
         <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0" />
     </joint>
@@ -80,14 +80,14 @@
     <joint name="base_right_wheel_joint" type="continuous">
         <parent link="base_link" />
         <child link="right_wheel_link" />
-        <origin xyz="${-base_length / 4.0} ${-base_width / 2.0 - wheel_length / 2.0} 0" rpy="0 0 0" />
+        <origin xyz="${-base_length*0 / 4.0} ${-base_width / 2.0 - wheel_length / 2.0} 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>
 
     <joint name="base_left_wheel_joint" type="continuous">
         <parent link="base_link" />
         <child link="left_wheel_link" />
-        <origin xyz="${-base_length / 4.0} ${base_width / 2.0 + wheel_length / 2.0} 0" rpy="0 0 0" />
+        <origin xyz="${-base_length*0 / 4.0} ${base_width / 2.0 + wheel_length / 2.0} 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>
 

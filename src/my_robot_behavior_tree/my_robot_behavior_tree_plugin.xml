@@ -1,0 +1,8 @@
+<library path="my_robot_behavior_tree">
+  <class name="my_robot_behavior_tree/TestAction" type="my_robot_behavior_tree::TestAction" base_class_type="BT::ActionNodeBase">
+  <description>
+    Demo controller for demo robot.
+  </description>
+  </class>
+</library>
+  

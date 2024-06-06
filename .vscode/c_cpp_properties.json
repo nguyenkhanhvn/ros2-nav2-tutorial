@@ -6,8 +6,17 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/install/my_robot_behavior_tree/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/install/my_robot_interfaces/include/**",
         "/opt/ros/humble/include/**",
-        "/home/albert/ws/ros2/nav2/src/my_robot_interfaces/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/Fields2Cover/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/common/nknav2_bt_navigator/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/fields2cover_tutorial/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/my_robot_behavior_tree/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/my_robot_controller/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/my_robot_interfaces/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/my_robot_navigator/include/**",
+        "/home/albert/ws/ros2/ros2-nav2-tutorial/src/my_robot_planner/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

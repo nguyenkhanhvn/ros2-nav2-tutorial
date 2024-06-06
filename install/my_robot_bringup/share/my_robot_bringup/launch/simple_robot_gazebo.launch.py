@@ -1,1 +1,0 @@
-/home/albert/ws/ros2/nav2/src/my_robot_bringup/launch/simple_robot_gazebo.launch.py
